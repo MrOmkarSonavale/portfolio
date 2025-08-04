@@ -611,6 +611,7 @@ h1 {
   }
 
   .Portfolio {
+    font-size: 20rem;
     top: 15%;
     left: 50%;
   }
@@ -651,7 +652,7 @@ h1 {
   }
 
   .Portfolio {
-    font-size: 21rem;
+    font-size: 20rem;
   }
 
   .about-section {
@@ -679,6 +680,11 @@ h1 {
     bottom: 15%;
   }
 
+  .Portfolio {
+    top: 30%;
+    font-size: 17rem;
+  }
+
   .section__project-heading {
     margin-bottom: 0;
     padding-bottom: 3rem;
@@ -702,11 +708,11 @@ h1 {
 
   .hero-achivment-3 {
     top: 40%;
-    right: -10%;
+    right: 0%;
   }
 
   .Portfolio {
-    font-size: 19rem;
+    font-size: 17rem;
   }
 
   .hero-img {
