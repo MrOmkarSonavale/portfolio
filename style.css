@@ -76,10 +76,10 @@ h1 {
 
 .Portfolio {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   text-transform: uppercase;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   color: rgb(245, 245, 245, 0.2);
   max-width: 100%;
   font-size: 20rem;
@@ -87,7 +87,7 @@ h1 {
 }
 
 .hero-achivment {
-  width: 30%;
+  width: 35%;
   height: auto;
   position: absolute;
   overflow: hidden;
@@ -128,7 +128,7 @@ h1 {
 /**********/
 .about-section {
   max-width: 100%;
-  margin-top: 3rem;
+  margin-top: 10rem;
   text-align: center;
   height: 60vh;
   display: flex;
@@ -478,8 +478,7 @@ h1 {
   padding: 1.2rem;
 }
 .contact__me-note:hover {
-  background-color: #fff;
-  color: #001219;
+  background-color: rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease-in;
 }
 
@@ -510,12 +509,12 @@ h1 {
 }
 
 /* Mobile (480px and below) */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .contact__me {
-    padding: 4rem 1rem;
-  }
+    /* padding: 4rem 1rem; */
+/* } */
 
-  .contact__me-main {
+/* .contact__me-main {
     font-size: 3.2rem;
   }
 
@@ -533,8 +532,8 @@ h1 {
     align-self: flex-end;
     padding: 0.5rem 0.5rem;
     font-size: 1.8rem;
-  }
-}
+  } */
+/*}/*/
 
 @media (max-width: 1500px) {
   .hero-achivment {
@@ -649,7 +648,7 @@ h1 {
 
   .heading-info {
     top: 60%;
-    font-size: 12rem;
+    font-size: 11rem;
   }
 
   .section__hero {
@@ -661,8 +660,12 @@ h1 {
   }
 
   .hero-achivment {
-    width: 45%;
+    width: 42%;
     height: auto;
+  }
+
+  .hero-achivment-3 {
+    top: 62%;
   }
 
   .Portfolio {
@@ -866,7 +869,7 @@ h1 {
   }
 
   .dots {
-    bottom: 1%;
+    bottom: 4%;
   }
 
   .dots__dot {
@@ -887,13 +890,15 @@ h1 {
   .container__project div {
     height: 100%;
     width: 100%;
-    background-position: center;
-    background-size: cover;
   }
 
   /* .container-img-1 {
     background-image: url("./photos/usepopcorn.jpg");
-  } */
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(40%); */
+  }
 
   /* .project__img {
     width: 100%;
