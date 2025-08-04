@@ -34,7 +34,7 @@ body {
 
 /**hero****/
 .section__hero {
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   position: relative;
 }
@@ -74,17 +74,15 @@ h1 {
   padding-left: 1rem;
 }
 
-.Portfolio-div {
-  width: 100%;
-}
 .Portfolio {
   position: absolute;
-  top: 0%;
+  top: 50%;
   left: 50%;
   text-transform: uppercase;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   color: rgb(245, 245, 245, 0.2);
-  font-size: 28rem;
+  max-width: 100%;
+  font-size: 20rem;
   z-index: -1;
 }
 
@@ -129,7 +127,7 @@ h1 {
 /* about me */
 /**********/
 .about-section {
-  width: 100%;
+  max-width: 100%;
   margin-top: 3rem;
   text-align: center;
   height: 60vh;
@@ -150,15 +148,16 @@ h1 {
   position: absolute;
   text-transform: uppercase;
   color: rgb(245, 245, 245, 0.2);
-  font-size: 25rem;
+  font-size: 20rem;
   z-index: -1;
-  width: 100%;
-  letter-spacing: 7px;
+  max-width: 100%;
+  /* letter-spacing: 7px; */
 }
 
 .about-description {
   font-family: "Poppins" sans-serif;
   width: 100%;
+  height: 100%;
   color: #fff;
   font-size: 3rem;
   line-height: 5rem;
@@ -318,7 +317,7 @@ h1 {
 
 .dots {
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -350,7 +349,7 @@ h1 {
 
 .slider {
   width: 100%;
-  height: 55rem;
+  height: 70vh;
   margin: 0 auto;
   position: relative;
 
@@ -362,7 +361,7 @@ h1 {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 50rem;
+  height: 100%;
 
   display: flex;
   align-items: center;
@@ -373,11 +372,13 @@ h1 {
 }
 
 .project__img {
-  height: 30rem;
+  width: 45rem;
+  height: 25rem;
   border-radius: 2rem;
 }
 
 .container__project {
+  height: 70%;
   padding: 5rem;
   display: flex;
   gap: 10rem;
@@ -556,7 +557,7 @@ h1 {
   }
 
   .Portfolio {
-    font-size: 25rem;
+    /* font-size: 25rem; */
     top: 25%;
   }
 
@@ -617,13 +618,26 @@ h1 {
   }
 
   .about-section {
-    margin-top: 45vh;
-    /* height: 40vh; */
+    margin-top: 35vh;
+    height: 70vh;
   }
 
   .about-heading {
     /* top: 0%; */
-    font-size: 22rem;
+    font-size: 18rem;
+  }
+
+  .section__project-heading {
+    margin-bottom: 5rem;
+  }
+
+  .container__project {
+    height: 80%;
+    border-radius: 8rem;
+  }
+
+  .dots {
+    bottom: 5%;
   }
 }
 
@@ -660,7 +674,12 @@ h1 {
   }
 
   .slide {
-    height: 50%;
+    height: 100%;
+  }
+
+  .about-section {
+    margin-top: 30vh;
+    height: 60vh;
   }
 }
 
@@ -685,9 +704,45 @@ h1 {
     font-size: 17rem;
   }
 
+  .about-section {
+    margin-top: 35vh;
+    height: 50vh;
+  }
+
+  .about-description {
+    line-height: 4rem;
+  }
+
   .section__project-heading {
     margin-bottom: 0;
     padding-bottom: 3rem;
+  }
+  .container__project {
+    height: 70%;
+  }
+
+  .container__project div:last-of-type {
+    width: 40%;
+  }
+
+  .project__img {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  .dots {
+    bottom: 7%;
+  }
+
+  .project__checkout {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2rem;
+  }
+
+  .dots__dot {
+    height: 1.2rem;
+    width: 1.2rem;
   }
 }
 
@@ -712,6 +767,7 @@ h1 {
   }
 
   .Portfolio {
+    max-width: 90%;
     font-size: 17rem;
   }
 
@@ -730,9 +786,13 @@ h1 {
     font-size: 10rem;
   }
 
+  .about-section {
+    margin-top: 13vh;
+  }
+
   .section__project {
     width: 100%;
-    height: 34vh;
+    height: 89vh;
     padding: 0;
   }
   .slider {
@@ -747,11 +807,23 @@ h1 {
 
 @media (max-width: 625px) {
   .section__project {
-    height: 35vh;
+    /* height: 35vh; */
   }
 
   .Portfolio {
-    font-size: 16rem;
+    font-size: 12rem;
+  }
+
+  .about-section {
+    height: 60vh;
+  }
+  .about-description {
+    line-height: 4rem;
+    font-size: 2.6rem;
+  }
+
+  .container__project {
+    gap: 1rem;
   }
 }
 
@@ -770,13 +842,14 @@ h1 {
   }
 
   .Portfolio {
+    max-width: fit-content;
     top: 30%;
-    font-size: 13rem;
+    font-size: 12rem;
   }
 
   .about-section {
-    margin-top: 20rem;
-    height: 30vh;
+    margin-top: 8rem;
+    height: 55vh;
   }
 
   .heading-info {
@@ -784,10 +857,41 @@ h1 {
   }
 
   .section__project {
-    height: 27vh;
+    height: 70vh;
+  }
+
+  .dots {
+    bottom: 1%;
+  }
+
+  .dots__dot {
+    height: 1.5rem;
+    width: 1.5rem;
   }
 
   .container__project {
+    display: flex;
+    flex-direction: column;
     border-radius: 3rem;
   }
+
+  .container__project div:last-of-type {
+    display: none;
+  }
+
+  .container__project div {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* .container-img-1 {
+    background-image: url("./photos/usepopcorn.jpg");
+  } */
+
+  /* .project__img {
+    width: 100%;
+    height: auto;
+  } */
 }
