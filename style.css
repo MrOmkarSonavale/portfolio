@@ -575,18 +575,18 @@ h1 {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 55%;
+    font-size: 58%;
   }
 
   .section__hero {
-    height: 60vh;
+    height: 90vh;
   }
   .hero-img {
-    height: 50vh;
+    height: 80vh;
   }
 
   .hero-achivment {
-    width: 45%;
+    width: 40%;
     height: auto;
   }
 
@@ -601,37 +601,48 @@ h1 {
   }
 
   .hero-achivment-3 {
-    top: 45%;
+    top: 55%;
     right: 1%;
   }
 
   .heading-info {
     top: 55%;
+    font-size: 12rem;
   }
 
   .Portfolio {
     top: 15%;
     left: 50%;
   }
+
+  .about-section {
+    margin-top: 45vh;
+    /* height: 40vh; */
+  }
+
+  .about-heading {
+    /* top: 0%; */
+    font-size: 22rem;
+  }
 }
 
 @media (max-width: 1000px) {
   html {
-    font-size: 45%;
+    font-size: 50%;
     scroll-behavior: smooth;
   }
 
   .heading-info {
-    top: 50%;
-    font-size: 17rem;
+    top: 60%;
+    font-size: 12rem;
   }
 
   .section__hero {
-    height: 60vh;
+    height: 80vh;
   }
 
   .hero-img {
-    height: 50vh;
+    height: 75vh;
   }
 
   .hero-achivment {
@@ -640,11 +651,15 @@ h1 {
   }
 
   .Portfolio {
-    font-size: 25rem;
+    font-size: 21rem;
   }
 
   .about-section {
     height: 35vh;
+  }
+
+  .slide {
+    height: 50%;
   }
 }
 
@@ -672,17 +687,17 @@ h1 {
 
 @media (max-width: 750px) {
   html {
-    font-size: 43%;
+    font-size: 45%;
     scroll-behavior: smooth;
   }
 
   .hero-achivment {
-    width: 50%;
+    width: 40%;
     height: auto;
   }
 
   .hero-achivment-1 {
-    top: 46%;
+    top: 21%;
   }
 
   .hero-achivment-3 {
@@ -695,18 +710,18 @@ h1 {
   }
 
   .hero-img {
-    height: 40vh;
-    width: 100%;
+    height: 70vh;
+    /* width: 100%; */
   }
 
   .section__hero {
-    height: 50vh;
+    height: 80vh;
   }
 
   .heading-info {
     top: 60%;
-    letter-spacing: 3px;
-    font-size: 13rem;
+    /* letter-spacing: 3px; */
+    font-size: 10rem;
   }
 
   .section__project {
@@ -736,21 +751,21 @@ h1 {
 
 @media (max-width: 500px) {
   html {
-    font-size: 33%;
+    font-size: 38%;
     scroll-behavior: smooth;
   }
 
   .hero-img {
-    height: 30vh;
+    height: 50vh;
   }
 
   .section__hero {
-    height: 30vh;
+    height: 60vh;
   }
 
   .Portfolio {
-    top: 45%;
-    font-size: 18rem;
+    top: 30%;
+    font-size: 13rem;
   }
 
   .about-section {
@@ -759,7 +774,7 @@ h1 {
   }
 
   .heading-info {
-    font-size: 13rem;
+    font-size: 8rem;
   }
 
   .section__project {
