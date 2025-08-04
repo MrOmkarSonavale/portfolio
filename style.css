@@ -762,13 +762,14 @@ h1 {
   }
 
   .hero-achivment-3 {
-    top: 40%;
+    top: 55%;
     right: 0%;
   }
 
   .Portfolio {
     max-width: 90%;
-    font-size: 17rem;
+    font-size: 16rem;
+    overflow-wrap: break-word;
   }
 
   .hero-img {
@@ -797,6 +798,10 @@ h1 {
   }
   .slider {
     height: 50rem;
+  }
+
+  .dots {
+    bottom: 1%;
   }
 
   .contact__me-main {
@@ -857,7 +862,7 @@ h1 {
   }
 
   .section__project {
-    height: 70vh;
+    height: 77vh;
   }
 
   .dots {
