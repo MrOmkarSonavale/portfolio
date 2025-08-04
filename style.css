@@ -534,7 +534,7 @@ h1 {
     font-size: 1.8rem;
   } */
 /*}/*/
-
+/* 
 @media (max-width: 1500px) {
   .hero-achivment {
     width: 45%;
@@ -556,7 +556,7 @@ h1 {
   }
 
   .Portfolio {
-    /* font-size: 25rem; */
+    font-size: 25rem;
     top: 25%;
   }
 
@@ -570,8 +570,8 @@ h1 {
 
   .about-heading {
     letter-spacing: 0;
-  }
-}
+  } 
+} */
 
 @media (max-width: 1200px) {
   html {
@@ -796,7 +796,7 @@ h1 {
 
   .section__project {
     width: 100%;
-    height: 89vh;
+    height: auto;
     padding: 0;
   }
   .slider {
@@ -804,7 +804,7 @@ h1 {
   }
 
   .dots {
-    bottom: 1%;
+    bottom: 0%;
   }
 
   .contact__me-main {
