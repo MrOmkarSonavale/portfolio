@@ -814,9 +814,9 @@ h1 {
 }
 
 @media (max-width: 625px) {
-  .section__project {
-    /* height: 35vh; */
-  }
+  /* .section__project {
+    height: 35vh;
+  } */
 
   .Portfolio {
     font-size: 12rem;
@@ -869,7 +869,7 @@ h1 {
   }
 
   .dots {
-    bottom: 4%;
+    bottom: 9%;
   }
 
   .dots__dot {
@@ -898,7 +898,7 @@ h1 {
     background-size: cover;
     background-position: center;
     filter: brightness(40%); */
-  }
+  /* } */
 
   /* .project__img {
     width: 100%;
