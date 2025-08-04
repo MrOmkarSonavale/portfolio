@@ -673,16 +673,22 @@ h1 {
   }
 
   .about-section {
-    height: 35vh;
+    margin-top: 30vh;
+    height: 60vh;
+  }
+
+  .section__project {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .slider {
+    height: 60rem;
   }
 
   .slide {
-    height: 100%;
-  }
-
-  .about-section {
-    margin-top: 30vh;
-    height: 60vh;
+    height: 50rem;
   }
 }
 
@@ -699,7 +705,7 @@ h1 {
   }
 
   .dots {
-    bottom: 15%;
+    bottom: 20%;
   }
 
   .Portfolio {
@@ -864,9 +870,9 @@ h1 {
     font-size: 8rem;
   }
 
-  .section__project {
+  /* .section__project {
     height: 77vh;
-  }
+  } */
 
   .dots {
     /* bottom: 9%; */
